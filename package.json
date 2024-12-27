@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "node": "^23.5.0",
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "ethers": "^6.13.4",
+    "hardhat": "^2.22.17"
+  }
+}

@@ -1,0 +1,10 @@
+accounts = (await ethers.getSigners()).map(signer => signer.address)
+(await ethers.provider.getBalance(accounts[0])).toString()
+accounts = (await ethers.getSigners()).map(signer => signer.address)
+await Rec.getPatientData('0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266')
+await getPatientData('0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266')
+await Rec.addPatientData(1, "Anuj", 20, "Male", "Asthma");
+clear
+const Rec = rec.attach("0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9")
+const rec = rec.attach("0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9")
+const rec = await ethers.getContractFactory('PatientRecords');
